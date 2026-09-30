@@ -29,7 +29,7 @@
 ## 動作環境
 
 - **失踪 ～タケシ。お前の言う通りだった。あの廃村はヤバすぎる。～ Steam版**（Windows x64）。
-- [BepInEx Bleeding Edge（BE）builds](https://builds.bepinex.dev/projects/bepinex_be)から、名前が `BepInEx-Unity.Mono-win-x64-6.0.0` で始まる最新のZIPを使用してください。`BepInEx-Unity.Mono-win-x64-6.0.0-be.788+5b766a3.zip` で動作確認しています。
+- **BepInEx 6.0.0** : [BepInEx Bleeding Edge（BE）builds](https://builds.bepinex.dev/projects/bepinex_be)から、名前が `BepInEx-Unity.Mono-win-x64-6.0.0` で始まる最新のZIPを使用してください。`BepInEx-Unity.Mono-win-x64-6.0.0-be.788+5b766a3.zip` で動作確認しています。
 
 ## インストール
 
