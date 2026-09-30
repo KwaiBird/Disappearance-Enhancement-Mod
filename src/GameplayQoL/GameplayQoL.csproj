@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AssemblyName>Disappearance.GameplayQoL</AssemblyName>
+    <RootNamespace>Disappearance.GameplayQoL</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\Shared\DiagnosticClient.cs" Link="Shared\DiagnosticClient.cs" />
+    <Compile Include="..\Shared\NativeMenuCanvas.cs" Link="Shared\NativeMenuCanvas.cs" />
+    <Compile Include="..\Shared\MenuCanvasProjection.cs" Link="Shared\MenuCanvasProjection.cs" />
+    <Compile Include="..\Shared\GameFadeVisibility.cs" Link="Shared\GameFadeVisibility.cs" />
+    <Compile Include="..\Shared\GameFadeCanvas.cs" Link="Shared\GameFadeCanvas.cs" />
+    <Compile Include="..\Shared\GameFadeGUI.cs" Link="Shared\GameFadeGUI.cs" />
+    <Compile Include="..\Shared\MenuTextStyle.cs" Link="Shared\MenuTextStyle.cs" />
+    <Compile Include="..\Shared\ActiveControlHints.cs" Link="Shared\ActiveControlHints.cs" />
+    <Compile Include="..\Shared\ControlGlyphs.cs" Link="Shared\ControlGlyphs.cs" />
+    <Compile Include="..\Shared\ControlHintGUI.cs" Link="Shared\ControlHintGUI.cs" />
+    <Compile Include="..\Shared\ConfirmInput.cs" Link="Shared\ConfirmInput.cs" />
+    <Compile Include="..\Shared\JapaneseGuiFont.cs" Link="Shared\JapaneseGuiFont.cs" />
+    <Compile Include="..\Shared\LegacyConfigMigration.cs" Link="Shared\LegacyConfigMigration.cs" />
+    <Reference Include="Assembly-CSharp"><HintPath>$(GameRoot)\Disappearance_Data\Managed\Assembly-CSharp.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="BepInEx.Core"><HintPath>$(GameRoot)\BepInEx\core\BepInEx.Core.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="BepInEx.Unity.Mono"><HintPath>$(GameRoot)\BepInEx\core\BepInEx.Unity.Mono.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="0Harmony"><HintPath>$(GameRoot)\BepInEx\core\0Harmony.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine"><HintPath>$(GameRoot)\Disappearance_Data\Managed\UnityEngine.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.CoreModule"><HintPath>$(GameRoot)\Disappearance_Data\Managed\UnityEngine.CoreModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.IMGUIModule"><HintPath>$(GameRoot)\Disappearance_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.UI"><HintPath>$(GameRoot)\Disappearance_Data\Managed\UnityEngine.UI.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.UIModule"><HintPath>$(GameRoot)\Disappearance_Data\Managed\UnityEngine.UIModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule"><HintPath>$(GameRoot)\Disappearance_Data\Managed\UnityEngine.ScreenCaptureModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.PhysicsModule"><HintPath>$(GameRoot)\Disappearance_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.TextRenderingModule"><HintPath>$(GameRoot)\Disappearance_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.TerrainModule"><HintPath>$(GameRoot)\Disappearance_Data\Managed\UnityEngine.TerrainModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Unity.InputSystem"><HintPath>$(GameRoot)\Disappearance_Data\Managed\Unity.InputSystem.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Unity.TextMeshPro"><HintPath>$(GameRoot)\Disappearance_Data\Managed\Unity.TextMeshPro.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Cinemachine"><HintPath>$(GameRoot)\Disappearance_Data\Managed\Cinemachine.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UniTask"><HintPath>$(GameRoot)\Disappearance_Data\Managed\UniTask.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.AnimationModule"><HintPath>$(GameRoot)\Disappearance_Data\Managed\UnityEngine.AnimationModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UniRx"><HintPath>$(GameRoot)\Disappearance_Data\Managed\UniRx.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AssemblyName>Disappearance.Performance.P6</AssemblyName>
+    <RootNamespace>Disappearance.PerformanceV2</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../Shared/DiagnosticOverlayLayout.cs" Link="Shared/DiagnosticOverlayLayout.cs" />
+    <Compile Include="../Shared/JapaneseGuiFont.cs" Link="Shared/JapaneseGuiFont.cs" />
+    <Compile Include="../UIControls/Stage2Json.cs" Link="GenericJsonParser.cs" />
+    <Reference Include="BepInEx.Core"><HintPath>$(GameRoot)\BepInEx\core\BepInEx.Core.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="BepInEx.Unity.Mono"><HintPath>$(GameRoot)\BepInEx\core\BepInEx.Unity.Mono.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine"><HintPath>$(GameRoot)\Disappearance_Data\Managed\UnityEngine.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.CoreModule"><HintPath>$(GameRoot)\Disappearance_Data\Managed\UnityEngine.CoreModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.IMGUIModule"><HintPath>$(GameRoot)\Disappearance_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.TextRenderingModule"><HintPath>$(GameRoot)\Disappearance_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Unity.InputSystem"><HintPath>$(GameRoot)\Disappearance_Data\Managed\Unity.InputSystem.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime"><HintPath>$(GameRoot)\Disappearance_Data\Managed\Unity.RenderPipelines.Core.Runtime.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime"><HintPath>$(GameRoot)\Disappearance_Data\Managed\Unity.RenderPipelines.Universal.Runtime.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>
